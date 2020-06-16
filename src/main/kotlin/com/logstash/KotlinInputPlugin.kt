@@ -25,7 +25,7 @@ class KotlinInputPlugin @JvmOverloads constructor(
 
     override fun start(consumer: Consumer<Map<String, Any>>) {
 
-        // The start method should push Map<String, Object> instances to the supplied QueueWriter
+        // The start method should push Map<String, Any> instances to the supplied QueueWriter
         // instance. Those will be converted to Event instances later in the Logstash event
         // processing pipeline.
         //
