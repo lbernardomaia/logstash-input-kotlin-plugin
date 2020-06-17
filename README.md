@@ -20,5 +20,9 @@ bin/logstash-plugin install --no-verify --local /path/to/logstash-filter-kotlin_
 
 Default Conf:
 ```
-bin/logstash -f /path/to/kotlin_input_plugin.conf
+bin/logstash -f /path/to/kotlin_input_plugin_default.conf
+```
+Custom Conf: 
+```
+bin/logstash -f /path/to/kotlin_input_plugin_custom.conf
 ```
